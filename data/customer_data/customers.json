@@ -1,0 +1,142 @@
+[
+  {
+    "customer_id": "CUS_1001",
+    "name": "Aarav Mehta",
+    "email": "aarav.mehta.1001@example.com",
+    "account_status": "active",
+    "subscription_id": "SUB_2001"
+  },
+  {
+    "customer_id": "CUS_1002",
+    "name": "Vivaan Sharma",
+    "email": "vivaan.sharma.1002@example.com",
+    "account_status": "active",
+    "subscription_id": "SUB_2002"
+  },
+  {
+    "customer_id": "CUS_1003",
+    "name": "Aditya Patel",
+    "email": "aditya.patel.1003@example.com",
+    "account_status": "active",
+    "subscription_id": "SUB_2003"
+  },
+  {
+    "customer_id": "CUS_1004",
+    "name": "Arjun Singh",
+    "email": "arjun.singh.1004@example.com",
+    "account_status": "active",
+    "subscription_id": "SUB_2004"
+  },
+  {
+    "customer_id": "CUS_1005",
+    "name": "Kabir Singh",
+    "email": "kabir.singh.1005@example.com",
+    "account_status": "active",
+    "subscription_id": "SUB_2005"
+  },
+  {
+    "customer_id": "CUS_1006",
+    "name": "Rohan Verma",
+    "email": "rohan.verma.1006@example.com",
+    "account_status": "active",
+    "subscription_id": "SUB_2006"
+  },
+  {
+    "customer_id": "CUS_1007",
+    "name": "Rahul Mehta",
+    "email": "rahul.mehta.1007@example.com",
+    "account_status": "active",
+    "subscription_id": "SUB_2007"
+  },
+  {
+    "customer_id": "CUS_1008",
+    "name": "Karan Kapoor",
+    "email": "karan.kapoor.1008@example.com",
+    "account_status": "active",
+    "subscription_id": "SUB_2008"
+  },
+  {
+    "customer_id": "CUS_1009",
+    "name": "Ananya Mehta",
+    "email": "ananya.mehta.1009@example.com",
+    "account_status": "active",
+    "subscription_id": "SUB_2009"
+  },
+  {
+    "customer_id": "CUS_1010",
+    "name": "Priya Bhatia",
+    "email": "priya.bhatia.1010@example.com",
+    "account_status": "active",
+    "subscription_id": "SUB_2010"
+  },
+  {
+    "customer_id": "CUS_1011",
+    "name": "Isha Malhotra",
+    "email": "isha.malhotra.1011@example.com",
+    "account_status": "active",
+    "subscription_id": "SUB_2011"
+  },
+  {
+    "customer_id": "CUS_1012",
+    "name": "Meera Sharma",
+    "email": "meera.sharma.1012@example.com",
+    "account_status": "active",
+    "subscription_id": "SUB_2012"
+  },
+  {
+    "customer_id": "CUS_1013",
+    "name": "Neha Sharma",
+    "email": "neha.sharma.1013@example.com",
+    "account_status": "active",
+    "subscription_id": "SUB_2013"
+  },
+  {
+    "customer_id": "CUS_1014",
+    "name": "Diya Mehta",
+    "email": "diya.mehta.1014@example.com",
+    "account_status": "active",
+    "subscription_id": "SUB_2014"
+  },
+  {
+    "customer_id": "CUS_1015",
+    "name": "Aditi Singh",
+    "email": "aditi.singh.1015@example.com",
+    "account_status": "active",
+    "subscription_id": "SUB_2015"
+  },
+  {
+    "customer_id": "CUS_1016",
+    "name": "Simran Singh",
+    "email": "simran.singh.1016@example.com",
+    "account_status": "active",
+    "subscription_id": "SUB_2016"
+  },
+  {
+    "customer_id": "CUS_1017",
+    "name": "Kavya Kapoor",
+    "email": "kavya.kapoor.1017@example.com",
+    "account_status": "active",
+    "subscription_id": "SUB_2017"
+  },
+  {
+    "customer_id": "CUS_1018",
+    "name": "Sneha Bhatia",
+    "email": "sneha.bhatia.1018@example.com",
+    "account_status": "active",
+    "subscription_id": "SUB_2018"
+  },
+  {
+    "customer_id": "CUS_1019",
+    "name": "Nisha Sharma",
+    "email": "nisha.sharma.1019@example.com",
+    "account_status": "active",
+    "subscription_id": "SUB_2019"
+  },
+  {
+    "customer_id": "CUS_1020",
+    "name": "Pooja Kapoor",
+    "email": "pooja.kapoor.1020@example.com",
+    "account_status": "active",
+    "subscription_id": "SUB_2020"
+  }
+]

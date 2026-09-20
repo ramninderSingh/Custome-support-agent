@@ -1,0 +1,266 @@
+[
+  {
+    "ticket_id": "TKT_7001",
+    "customer_id": "CUS_1001",
+    "subscription_id": "SUB_2001",
+    "issue_type": "duplicate_payment",
+    "description": "Customer reported being charged twice for the same subscription.",
+    "transaction_ids": [
+      "TXN_5001",
+      "TXN_5002"
+    ],
+    "status": "open",
+    "priority": "high",
+    "created_at": "2026-09-14T22:20:59",
+    "resolution": null
+  },
+  {
+    "ticket_id": "TKT_7002",
+    "customer_id": "CUS_1002",
+    "subscription_id": "SUB_2002",
+    "issue_type": "duplicate_payment",
+    "description": "Customer reported being charged twice for the same subscription.",
+    "transaction_ids": [
+      "TXN_5003",
+      "TXN_5004"
+    ],
+    "status": "open",
+    "priority": "high",
+    "created_at": "2026-09-18T18:23:09",
+    "resolution": null
+  },
+  {
+    "ticket_id": "TKT_7003",
+    "customer_id": "CUS_1003",
+    "subscription_id": "SUB_2003",
+    "issue_type": "refund_request",
+    "description": "Customer requested a refund for a recent subscription payment.",
+    "transaction_ids": [
+      "TXN_5005"
+    ],
+    "status": "open",
+    "priority": "medium",
+    "created_at": "2026-09-18T21:25:27",
+    "resolution": null
+  },
+  {
+    "ticket_id": "TKT_7004",
+    "customer_id": "CUS_1004",
+    "subscription_id": "SUB_2004",
+    "issue_type": "refund_status",
+    "description": "Customer asked about the status of a previously requested refund.",
+    "transaction_ids": [
+      "TXN_5006"
+    ],
+    "status": "resolved",
+    "priority": "low",
+    "created_at": "2026-09-17T02:39:34",
+    "resolution": "Refund already processed."
+  },
+  {
+    "ticket_id": "TKT_7005",
+    "customer_id": "CUS_1005",
+    "subscription_id": "SUB_2005",
+    "issue_type": "payment_failure",
+    "description": "Customer reported that their subscription payment failed.",
+    "transaction_ids": [
+      "TXN_5007"
+    ],
+    "status": "open",
+    "priority": "high",
+    "created_at": "2026-09-19T18:02:29",
+    "resolution": null
+  },
+  {
+    "ticket_id": "TKT_7006",
+    "customer_id": "CUS_1006",
+    "subscription_id": "SUB_2006",
+    "issue_type": "payment_failure",
+    "description": "Customer reported that their subscription payment failed.",
+    "transaction_ids": [
+      "TXN_5008"
+    ],
+    "status": "open",
+    "priority": "high",
+    "created_at": "2026-09-18T05:45:06",
+    "resolution": null
+  },
+  {
+    "ticket_id": "TKT_7007",
+    "customer_id": "CUS_1007",
+    "subscription_id": "SUB_2007",
+    "issue_type": "payment_pending",
+    "description": "Customer wants to know why their payment is still pending.",
+    "transaction_ids": [
+      "TXN_5009"
+    ],
+    "status": "open",
+    "priority": "medium",
+    "created_at": "2026-09-18T19:07:21",
+    "resolution": null
+  },
+  {
+    "ticket_id": "TKT_7008",
+    "customer_id": "CUS_1008",
+    "subscription_id": "SUB_2008",
+    "issue_type": "large_refund_request",
+    "description": "Customer requested a refund for a large enterprise transaction.",
+    "transaction_ids": [
+      "TXN_5010"
+    ],
+    "status": "open",
+    "priority": "high",
+    "created_at": "2026-09-17T05:30:21",
+    "resolution": null
+  },
+  {
+    "ticket_id": "TKT_7009",
+    "customer_id": "CUS_1009",
+    "subscription_id": "SUB_2009",
+    "issue_type": "repeated_payment_failure",
+    "description": "Customer has experienced multiple failed payment attempts.",
+    "transaction_ids": [
+      "TXN_5011",
+      "TXN_5012"
+    ],
+    "status": "open",
+    "priority": "high",
+    "created_at": "2026-09-18T21:44:08",
+    "resolution": null
+  },
+  {
+    "ticket_id": "TKT_7010",
+    "customer_id": "CUS_1010",
+    "subscription_id": "SUB_2010",
+    "issue_type": "repeated_payment_failure",
+    "description": "Customer has experienced multiple failed payment attempts.",
+    "transaction_ids": [
+      "TXN_5013",
+      "TXN_5014"
+    ],
+    "status": "open",
+    "priority": "high",
+    "created_at": "2026-09-16T22:51:49",
+    "resolution": null
+  },
+  {
+    "ticket_id": "TKT_7011",
+    "customer_id": "CUS_1011",
+    "subscription_id": "SUB_2011",
+    "issue_type": "subscription_cancellation",
+    "description": "Customer requested cancellation of their subscription.",
+    "transaction_ids": [],
+    "status": "open",
+    "priority": "medium",
+    "created_at": "2026-09-17T21:36:18",
+    "resolution": null
+  },
+  {
+    "ticket_id": "TKT_7012",
+    "customer_id": "CUS_1012",
+    "subscription_id": "SUB_2012",
+    "issue_type": "subscription_cancellation",
+    "description": "Customer requested cancellation of their subscription.",
+    "transaction_ids": [],
+    "status": "open",
+    "priority": "medium",
+    "created_at": "2026-09-16T23:01:01",
+    "resolution": null
+  },
+  {
+    "ticket_id": "TKT_7013",
+    "customer_id": "CUS_1013",
+    "subscription_id": "SUB_2013",
+    "issue_type": "subscription_cancellation",
+    "description": "Customer requested cancellation of their subscription.",
+    "transaction_ids": [],
+    "status": "open",
+    "priority": "medium",
+    "created_at": "2026-09-18T01:50:00",
+    "resolution": null
+  },
+  {
+    "ticket_id": "TKT_7014",
+    "customer_id": "CUS_1014",
+    "subscription_id": "SUB_2014",
+    "issue_type": "billing_question",
+    "description": "Customer requested clarification about their monthly billing.",
+    "transaction_ids": [],
+    "status": "resolved",
+    "priority": "low",
+    "created_at": "2026-09-16T02:33:40",
+    "resolution": "Billing information was explained to the customer."
+  },
+  {
+    "ticket_id": "TKT_7015",
+    "customer_id": "CUS_1015",
+    "subscription_id": "SUB_2015",
+    "issue_type": "billing_question",
+    "description": "Customer requested clarification about their monthly billing.",
+    "transaction_ids": [],
+    "status": "resolved",
+    "priority": "low",
+    "created_at": "2026-09-17T20:07:06",
+    "resolution": "Billing information was explained to the customer."
+  },
+  {
+    "ticket_id": "TKT_7016",
+    "customer_id": "CUS_1016",
+    "subscription_id": "SUB_2016",
+    "issue_type": "billing_question",
+    "description": "Customer requested clarification about their monthly billing.",
+    "transaction_ids": [],
+    "status": "resolved",
+    "priority": "low",
+    "created_at": "2026-09-18T19:42:29",
+    "resolution": "Billing information was explained to the customer."
+  },
+  {
+    "ticket_id": "TKT_7017",
+    "customer_id": "CUS_1017",
+    "subscription_id": "SUB_2017",
+    "issue_type": "invoice_request",
+    "description": "Customer requested a copy of their latest invoice.",
+    "transaction_ids": [],
+    "status": "resolved",
+    "priority": "low",
+    "created_at": "2026-09-14T07:35:23",
+    "resolution": "Invoice provided to customer."
+  },
+  {
+    "ticket_id": "TKT_7018",
+    "customer_id": "CUS_1018",
+    "subscription_id": "SUB_2018",
+    "issue_type": "invoice_request",
+    "description": "Customer requested a copy of their latest invoice.",
+    "transaction_ids": [],
+    "status": "resolved",
+    "priority": "low",
+    "created_at": "2026-09-14T12:15:12",
+    "resolution": "Invoice provided to customer."
+  },
+  {
+    "ticket_id": "TKT_7019",
+    "customer_id": "CUS_1019",
+    "subscription_id": "SUB_2019",
+    "issue_type": "invoice_request",
+    "description": "Customer requested a copy of their latest invoice.",
+    "transaction_ids": [],
+    "status": "resolved",
+    "priority": "low",
+    "created_at": "2026-09-19T09:31:15",
+    "resolution": "Invoice provided to customer."
+  },
+  {
+    "ticket_id": "TKT_7020",
+    "customer_id": "CUS_1020",
+    "subscription_id": "SUB_2020",
+    "issue_type": "invoice_request",
+    "description": "Customer requested a copy of their latest invoice.",
+    "transaction_ids": [],
+    "status": "resolved",
+    "priority": "low",
+    "created_at": "2026-09-11T07:51:45",
+    "resolution": "Invoice provided to customer."
+  }
+]

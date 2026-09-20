@@ -1,0 +1,202 @@
+[
+  {
+    "subscription_id": "SUB_2001",
+    "customer_id": "CUS_1001",
+    "plan": "basic",
+    "monthly_price": 799,
+    "currency": "INR",
+    "start_date": "2026-01-20",
+    "renewal_date": "2026-10-17",
+    "status": "active"
+  },
+  {
+    "subscription_id": "SUB_2002",
+    "customer_id": "CUS_1002",
+    "plan": "enterprise",
+    "monthly_price": 7999,
+    "currency": "INR",
+    "start_date": "2026-01-24",
+    "renewal_date": "2026-09-21",
+    "status": "active"
+  },
+  {
+    "subscription_id": "SUB_2003",
+    "customer_id": "CUS_1003",
+    "plan": "enterprise",
+    "monthly_price": 7999,
+    "currency": "INR",
+    "start_date": "2026-04-06",
+    "renewal_date": "2026-10-03",
+    "status": "active"
+  },
+  {
+    "subscription_id": "SUB_2004",
+    "customer_id": "CUS_1004",
+    "plan": "basic",
+    "monthly_price": 799,
+    "currency": "INR",
+    "start_date": "2026-03-30",
+    "renewal_date": "2026-09-26",
+    "status": "active"
+  },
+  {
+    "subscription_id": "SUB_2005",
+    "customer_id": "CUS_1005",
+    "plan": "enterprise",
+    "monthly_price": 7999,
+    "currency": "INR",
+    "start_date": "2026-05-12",
+    "renewal_date": "2026-10-09",
+    "status": "active"
+  },
+  {
+    "subscription_id": "SUB_2006",
+    "customer_id": "CUS_1006",
+    "plan": "basic",
+    "monthly_price": 799,
+    "currency": "INR",
+    "start_date": "2026-01-09",
+    "renewal_date": "2026-10-06",
+    "status": "active"
+  },
+  {
+    "subscription_id": "SUB_2007",
+    "customer_id": "CUS_1007",
+    "plan": "basic",
+    "monthly_price": 799,
+    "currency": "INR",
+    "start_date": "2026-01-25",
+    "renewal_date": "2026-09-22",
+    "status": "active"
+  },
+  {
+    "subscription_id": "SUB_2008",
+    "customer_id": "CUS_1008",
+    "plan": "pro",
+    "monthly_price": 1999,
+    "currency": "INR",
+    "start_date": "2026-04-26",
+    "renewal_date": "2026-09-23",
+    "status": "active"
+  },
+  {
+    "subscription_id": "SUB_2009",
+    "customer_id": "CUS_1009",
+    "plan": "pro",
+    "monthly_price": 1999,
+    "currency": "INR",
+    "start_date": "2026-06-13",
+    "renewal_date": "2026-10-11",
+    "status": "active"
+  },
+  {
+    "subscription_id": "SUB_2010",
+    "customer_id": "CUS_1010",
+    "plan": "basic",
+    "monthly_price": 799,
+    "currency": "INR",
+    "start_date": "2026-01-08",
+    "renewal_date": "2026-10-05",
+    "status": "active"
+  },
+  {
+    "subscription_id": "SUB_2011",
+    "customer_id": "CUS_1011",
+    "plan": "pro",
+    "monthly_price": 1999,
+    "currency": "INR",
+    "start_date": "2026-06-26",
+    "renewal_date": "2026-09-24",
+    "status": "active"
+  },
+  {
+    "subscription_id": "SUB_2012",
+    "customer_id": "CUS_1012",
+    "plan": "basic",
+    "monthly_price": 799,
+    "currency": "INR",
+    "start_date": "2026-04-16",
+    "renewal_date": "2026-10-13",
+    "status": "active"
+  },
+  {
+    "subscription_id": "SUB_2013",
+    "customer_id": "CUS_1013",
+    "plan": "basic",
+    "monthly_price": 799,
+    "currency": "INR",
+    "start_date": "2026-04-22",
+    "renewal_date": "2026-10-19",
+    "status": "active"
+  },
+  {
+    "subscription_id": "SUB_2014",
+    "customer_id": "CUS_1014",
+    "plan": "pro",
+    "monthly_price": 1999,
+    "currency": "INR",
+    "start_date": "2026-02-18",
+    "renewal_date": "2026-10-16",
+    "status": "active"
+  },
+  {
+    "subscription_id": "SUB_2015",
+    "customer_id": "CUS_1015",
+    "plan": "pro",
+    "monthly_price": 1999,
+    "currency": "INR",
+    "start_date": "2025-12-28",
+    "renewal_date": "2026-09-24",
+    "status": "active"
+  },
+  {
+    "subscription_id": "SUB_2016",
+    "customer_id": "CUS_1016",
+    "plan": "basic",
+    "monthly_price": 799,
+    "currency": "INR",
+    "start_date": "2026-01-17",
+    "renewal_date": "2026-10-14",
+    "status": "active"
+  },
+  {
+    "subscription_id": "SUB_2017",
+    "customer_id": "CUS_1017",
+    "plan": "pro",
+    "monthly_price": 1999,
+    "currency": "INR",
+    "start_date": "2026-03-07",
+    "renewal_date": "2026-10-03",
+    "status": "active"
+  },
+  {
+    "subscription_id": "SUB_2018",
+    "customer_id": "CUS_1018",
+    "plan": "basic",
+    "monthly_price": 799,
+    "currency": "INR",
+    "start_date": "2025-11-28",
+    "renewal_date": "2026-09-24",
+    "status": "active"
+  },
+  {
+    "subscription_id": "SUB_2019",
+    "customer_id": "CUS_1019",
+    "plan": "pro",
+    "monthly_price": 1999,
+    "currency": "INR",
+    "start_date": "2026-07-02",
+    "renewal_date": "2026-09-30",
+    "status": "past_due"
+  },
+  {
+    "subscription_id": "SUB_2020",
+    "customer_id": "CUS_1020",
+    "plan": "enterprise",
+    "monthly_price": 7999,
+    "currency": "INR",
+    "start_date": "2026-05-08",
+    "renewal_date": "2026-10-05",
+    "status": "cancelled"
+  }
+]
