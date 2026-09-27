@@ -66,15 +66,35 @@ class MarkdownChunker:
                             "section": section["title"],
                             "chunk_id": chunk_index,
                             "document_type": "policy",
+                            "domain": self._infer_domain(source),
                         },
                     }
                 )
 
         return all_chunks
 
+    def _infer_domain(self, source: str) -> str:
+
+        source = source.lower()
+
+        if "refund" in source:
+            return "refund"
+
+        if "billing" in source:
+            return "billing"
+
+        if "payment" in source:
+            return "payment"
+
+        if "cancellation" in source:
+            return "cancellation"
+
+        return "general"
+
     # ---------------------------------------------------------
     # STEP 1: Markdown section detection
     # ---------------------------------------------------------
+
 
     def _split_sections(
         self,
