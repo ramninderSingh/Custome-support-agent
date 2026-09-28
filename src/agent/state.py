@@ -1,30 +1,39 @@
-from typing import  TypedDict
+from typing import Annotated, TypedDict
+import operator
+
 from src.router.schema import QueryRoute
 from src.models.customer import Customer
 from src.models.subscription import Subscription
-#from src.models.ticket import ticket
-from src.models.subscription import Subscription
 from src.models.transaction import Transaction
+from src.models.ticket import Ticket
 
-class AgentState(TypedDict, total = False):
-    #original user input
+
+class AgentState(TypedDict, total=False):
+
+    # User input
     user_query: str
-    # result frm the intent router
+    customer_id: str | None
+
+    # Router
     route: QueryRoute
 
-    # structured_data
+    # Database results
     customer_data: Customer | None
-    Subscription_data: Subscription | None
-    Transaction_data: Transaction | None
-    #ticket_data: ticket_data | None
+    subscription_data: Subscription | None
+    transaction_data: list[Transaction]
+    ticket_data: list[Ticket]
 
-    #Rag
-    rag_context: list
+    # RAG
+    rag_context: list[dict]
 
-    #combined result
-    tool_result: list
+    # Results from all retrieval nodes
+    tool_result: Annotated[
+        list[dict],
+        operator.add
+    ]
 
-    #futureaction
-    action: dict|None
-    response:str | None
+    # Future actions
+    action: dict | None
 
+    # Final answer
+    response: str | None

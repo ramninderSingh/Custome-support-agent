@@ -45,13 +45,9 @@ def ticket_node(state):
     # Customer tickets
     # --------------------------------------------------
 
-    customer_id = (
-        state.get("customer_id")
-        or extract_customer_id(query)
-    )
+    customer_id = (state.get("customer_id") or extract_customer_id(query))
 
     if not customer_id:
-
         return {
             "ticket_data": [],
 
@@ -62,9 +58,7 @@ def ticket_node(state):
             }]
         }
 
-    result = get_customer_tickets(
-        customer_id
-    )
+    result = get_customer_tickets(customer_id)
 
     return {
         "ticket_data": result.get(
