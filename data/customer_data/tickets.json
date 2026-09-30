@@ -262,5 +262,35 @@
     "priority": "low",
     "created_at": "2026-09-11T07:51:45",
     "resolution": "Invoice provided to customer."
+  },
+  {
+    "ticket_id": "TKT_7021",
+    "customer_id": "CUS_1001",
+    "subscription_id": "SUB_2001",
+    "issue_type": "duplicate_charge",
+    "description": "Customer was charged twice for the September 2026 subscription renewal (Transactions TXN_5001 and TXN_5002), both amounting to 799.0 INR. Requesting a refund for the duplicate charge.",
+    "transaction_ids": [
+      "TXN_5001",
+      "TXN_5002"
+    ],
+    "status": "open",
+    "priority": "medium",
+    "created_at": "2026-09-30T11:47:07.966031",
+    "resolution": null
+  },
+  {
+    "ticket_id": "TKT_7022",
+    "customer_id": "CUS_1019",
+    "subscription_id": "SUB_2019",
+    "issue_type": "billing_duplicate_charge",
+    "description": "Customer reported being charged twice for their subscription. Investigation shows transactions TXN_5027 and TXN_5028. Requesting review and refund for the duplicate charge under the refund policy.",
+    "transaction_ids": [
+      "TXN_5027",
+      "TXN_5028"
+    ],
+    "status": "open",
+    "priority": "normal",
+    "created_at": "2026-09-30T11:53:18.780263",
+    "resolution": null
   }
 ]
