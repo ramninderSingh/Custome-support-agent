@@ -1,68 +1,55 @@
-from langgraph.graph import StateGraph, START, END
+from langgraph.graph import StateGraph,START,END
+from langgraph.prebuilt import ToolNode
 from src.agent.state import AgentState
-from src.agent.nodes.router_node import router_node
-from src.agent.nodes.rag_node import rag_node
-from src.agent.nodes.customer_node import customer_node
-from src.agent.nodes.subscription_node import subscription_node
-from src.agent.nodes.transcation_node import transaction_node
-from src.agent.nodes.ticket_node import ticket_node
+from src.agent.nodes.agent_node import agent_node
+from src.agent.nodes.tool_node import tool_node
 
 
-def route_after_classifier(state: AgentState):
+def should_continue(state):
 
-    route = state['route']
+    last_message = state["messages"][-1]
 
-    destination = []
+    if last_message.tool_calls:
+        return "tools"
 
-    if route.requires_knowledge:
-        destination.append("rag")
+    return END
 
-    if route.requires_customer_lookup:
-        destination.append("customer")
-
-    if route.requires_subscription_lookup:
-        destination.append("subscription")
-
-    if route.requires_transaction_lookup:
-        destination.append("transaction")
-
-    if route.requires_ticket_lookup:
-        destination.append("ticket")
-
-    return destination
 
 def build_graph():
+
     graph = StateGraph(AgentState)
 
-    #Nodes
-    graph.add_node("router" , router_node)
-    graph.add_node("customer", customer_node)
-    graph.add_node("rag", rag_node)
-    graph.add_node("subscription", subscription_node)
-    graph.add_node("transaction", transaction_node)
-    graph.add_node("ticket", ticket_node)
+    # Nodes
+    graph.add_node(
+        "agent",
+        agent_node
+    )
 
-    #START
-    graph.add_edge(START, "router")
+    graph.add_node(
+        "tools",
+        tool_node
+    )
 
-    #router -> required_systems
+    # Start
+    graph.add_edge(
+        START,
+        "agent"
+    )
+
+    # Agent decides what happens next
     graph.add_conditional_edges(
-            "router",
-            route_after_classifier,
-            {
-                "rag": "rag",
-                "customer": "customer",
-                "subscription": "subscription",
-                "transaction": "transaction",
-                "ticket": "ticket",
-            }
-        )
+        "agent",
+        should_continue,
+        {
+            "tools": "tools",
+            END: END
+        }
+    )
 
-    #temp ending
-    graph.add_edge("rag", END)
-    graph.add_edge("customer", END)
-    graph.add_edge("subscription", END)
-    graph.add_edge("transaction", END)
-    graph.add_edge("ticket", END)
+    # Tool results go back to agent
+    graph.add_edge(
+        "tools",
+        "agent"
+    )
 
     return graph.compile()
